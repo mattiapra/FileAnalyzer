@@ -1,0 +1,22 @@
+{
+  "name": "provatecnica",
+  "devDependencies": {
+    "@types/bun": "^1.1.3",
+    "mitata": "^0.1.11"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+  },
+  "version": "1.0.0",
+  "description": "To install dependencies:",
+  "scripts": {
+    "performance": "bun run ./test/performance.ts",
+    "start": "bun run ./src/index.ts",
+    "build": "bun build ./src/index.ts --outdir ./.build --target bun"
+  },
+  "author": "",
+  "license": "ISC"
+}
